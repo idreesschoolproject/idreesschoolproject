@@ -1,13 +1,40 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Hello User</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fragrance Paradise</title>
+  <link rel="stylesheet" href="layout.css">
 </head>
 <body>
-  <p id="greeting">Hello user</p>
-  <script>
-    // This script is just an example and doesn't access real user data
-    document.getElementById("greeting").textContent = "Hello there!";
-  </script>
+  <header>
+    <h1>Fragrance Paradise</h1>
+    <div class="cart-count">
+      <button id="cart-button">Cart (0)</button>
+      <img class="shop-button" src="cart.png" alt="Shop">
+    </div>
+  </header>
+  <div class="welcome-text fade-in">
+    <h2>Welcome to Fragrance Paradise!</h2>
+    <p>Discover your perfect scent.</p>
+  </div>
+  <section class="products">
+    <article>
+      <img src="perfume1.jpg" alt="Perfume 1">
+      <h3>Sweet Dreams by Luna</h3>
+      <p>A captivating blend of floral and citrus notes, perfect for a romantic evening.</p>
+      <img class="shop-button" src="shop.png" alt="Buy Now"> </article>
+    <article>
+      <img src="perfume2.jpg" alt="Perfume 2">
+      <h3>Sunrise Glow by Sol</h3>
+      <p>A vibrant and energetic scent with hints of citrus and tropical fruits.</p>
+      <img class="shop-button" src="shop.png" alt="Buy Now"> </article>
+    <article>
+      <img src="perfume3.jpg" alt="Perfume 3">
+      <h3>Midnight Whisper by Noir</h3>
+      <p>A mysterious and alluring blend of dark musk and amber notes. For the most achieved.</p>
+      <img class="shop-button" src="shop.png" alt="Buy Now"> </article>
+  </section>
+  <script src="coding.js"></script>
 </body>
 </html>
